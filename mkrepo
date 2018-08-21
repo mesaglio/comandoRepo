@@ -1,0 +1,26 @@
+function mkrepo {
+        printf "Nombre del repositorio? "
+        read name;
+        cd Documents
+        cd Repos
+        mkdir $name
+        cd $name
+        git init
+        #Copio los archivos iniciales
+        cd
+        cd Documents
+        cd GitInit
+        cp README.MD ../Repos/$name
+        cp .gitignore ../Repos/$name
+
+        #Vuelvo al repo
+        cd ..
+        cd Repos
+        cd $name
+        #Para hacer un repo privado cambiar hub create -p
+        hub create
+        git add .
+        git commit -m "First commit: add README and .gitignore."
+        git push -u origin master
+        hub browse
+}
