@@ -1,4 +1,9 @@
-Para agregar el comando en la consola de Mac, usar el comando 
+Para agregar el comando en la consola de Mac, primero intalar hub
+    
+    ~~~
+     brew install hub
+    ~~~
+
 - Si esta instalado zsh
     ~~~
      cat mkrepo >> ~/.zshrc
