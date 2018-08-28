@@ -1,25 +1,25 @@
 function mkrepo {
-        printf "Nombre del repositorio? "
+        printf "Repository name? "
         read name;
-        # Creo el directorio en Documentos/Repos
+        # Create the directori on Documentos/Repos
         cd Documents
         cd Repos
         mkdir $name
         cd $name
         git init
         #
-        #Copio los archivos iniciales
+        #Copy README and .gitignore
         cd
         cd Documents
         cd GitInit
         cp README.MD ../Repos/$name
         cp .gitignore ../Repos/$name
 
-        #Vuelvo al repo
+        #Back to repo
         cd ..
         cd Repos
         cd $name
-        #Para hacer un repo privado cambiar hub create -p
+        #To make the repo provate change to: hub create -p
         hub create
         git add .
         git commit -m "First commit: add README and .gitignore."
