@@ -1,11 +1,13 @@
 function mkrepo {
         printf "Nombre del repositorio? "
         read name;
+        # Creo el directorio en Documentos/Repos
         cd Documents
         cd Repos
         mkdir $name
         cd $name
         git init
+        #
         #Copio los archivos iniciales
         cd
         cd Documents
@@ -22,5 +24,4 @@ function mkrepo {
         git add .
         git commit -m "First commit: add README and .gitignore."
         git push -u origin master
-        hub browse
 }
