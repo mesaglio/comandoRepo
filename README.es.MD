@@ -1,3 +1,5 @@
+Este comando crea el nuevo repositorio en Documents/Repos, si desea cambiar la ruta ingrese en el archivo mkrepo y modifique
+
 Mover la carpeta GitInit a Documents.
 
 Instalar hub con el comando
