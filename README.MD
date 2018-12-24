@@ -2,12 +2,15 @@ Este comando crea el nuevo repositorio en Documents/Repos, si desea cambiar la r
 
 Mover la carpeta GitInit a Documents.
 
-Instalar hub con el comando 
+**Instalar hub con el comando**
 
-Cualquier duda, [Documentacion de hub](https://github.com/github/hub)
 ~~~
      brew install hub
 ~~~
+
+Cualquier duda, [Documentacion de hub](https://github.com/github/hub)
+
+**Agregar la funcion al perfil del bash**
 
 Si esta instalado zsh
 ~~~
