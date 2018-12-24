@@ -2,20 +2,22 @@ Este comando crea el nuevo repositorio en Documents/Repos, si desea cambiar la r
 
 Mover la carpeta GitInit a Documents.
 
-Instalar hub con el comando
+Instalar hub con el comando 
+
+Cualquier duda, [Documentacion de hub](https://github.com/github/hub)
 ~~~
      brew install hub
 ~~~
 
-> Si esta instalado zsh
+Si esta instalado zsh
 ~~~
      cat mkrepo >> ~/.zshrc
 ~~~
->despues usar nano .zshrc y ver que modificaciones hacer respecto a los paths
+Despues usar nano .zshrc y ver que modificaciones hacer respecto a los paths
 
 
->Si no tienes instalado zsh:
+Si no tienes instalado zsh:
 ~~~
      cat mkrepo >> ~/.bash_profile
 ~~~
->despues usar nano .bash_profile y ver que modificaciones hacer respecto a los paths
+Despues usar nano .bash_profile y ver que modificaciones hacer respecto a los paths
