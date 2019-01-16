@@ -4,7 +4,7 @@ function mkrepo {
         printf "Repository name? "
         read name;
 
-        # Create the directori on Documentos
+        # Create the directory on Documentos
         cd
         cd Documents || cd Documentos
         mkdir $name
