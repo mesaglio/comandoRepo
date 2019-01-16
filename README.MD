@@ -1,8 +1,12 @@
-## Este comando crea el nuevo repositorio en Documents o Documentos ##
+## Este comando crea el nuevo repositorio en Documents o Documentos. ##
 
-**Prerrequisito instalar Hub**
+### Clonar este repo o descargar los [comprimidos](https://github.com/github/mesaglio/mkrepoi/releases). ###
 
-Descargar de [aca](https://github.com/github/hub/releases)
+---
+
+**Prerrequisito instalar Hub.**
+
+Descargar de [aca](https://github.com/github/hub/releases).
 
 ---
 
@@ -12,6 +16,6 @@ Si no es un ejecutable, ejecutar `chmod +x install.sh` y luego `./install.sh`.
 
 ---
 
-**Configurar SSH en tu computadora**
+**Configurar SSH en tu computadora.**
 
-Cualquier duda, [Ayuda de GitHub](https://help.github.com/articles/connecting-to-github-with-ssh/)
+Cualquier duda, [Ayuda de GitHub](https://help.github.com/articles/connecting-to-github-with-ssh/).
