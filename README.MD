@@ -1,7 +1,5 @@
 ## Este comando crea el nuevo repositorio en Documents o Documentos ##
 
----
-
 **Prerrequisito instalar Hub**
 
 Descargar de [aca](https://github.com/github/hub/releases)
