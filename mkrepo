@@ -1,24 +1,21 @@
+
+# MKREPO
 function mkrepo {
         printf "Repository name? "
         read name;
-        # Create the directori on Documentos/Repos
-        cd Documents
-        cd Repos
+
+        # Create the directori on Documentos
+        cd
+        cd Documents || cd Documentos
         mkdir $name
+        sleep 1
         cd $name
         git init
-        #
-        #Copy README and .gitignore
-        cd
-        cd Documents
-        cd GitInit
-        cp README.MD ../Repos/$name
-        cp .gitignore ../Repos/$name
 
-        #Back to repo
-        cd ..
-        cd Repos
-        cd $name
+        #README and .gitignore
+        echo "Para ver la sintaxis de MD visitar [este](http://github.com/mesaglio/template) repositorios" >> README.md
+        touch .gitignore
+
         #To make the repo provate change to: hub create -p
         hub create
         git add .
