@@ -1,6 +1,6 @@
 ## Este comando crea el nuevo repositorio en Documents o Documentos. ##
 
-### Clonar este repo o descargar los [comprimidos](https://github.com/github/mesaglio/mkrepoi/releases). ###
+### Clonar este repo o descargar los [comprimidos](https://github.com/github/mesaglio/mkrepo/releases). ###
 
 ---
 
